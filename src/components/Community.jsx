@@ -2,7 +2,7 @@
 
 const Community = () => {
     return (
-      <div className="h-[50vh] flex flex-col justify-center items-center">
+      <div className="h-[70vh] flex flex-col justify-center items-center ">
 
         <div className="flex flex-col justify-center items-center">
             <h3 className='community-head font-medium text-[18px] pb-6'>COMMUNITY CONTRIBUTIONS</h3>
@@ -14,14 +14,14 @@ const Community = () => {
             </p>
         </div>
   
-  
-          {/* <span className="mb-5">
-              <p className="text-center text-[18px] font-medium ">
-                  Do you have a question, a proposal, or a project you&apos;d like to collaborate on? <br/>
-                  Feel free to drop me a message!
-              </p>
-          </span> */}
-      </div>
+        {/* <span className="flex justify-center  w-full h-[2px] bg-[#545454] "></span>  */}
+        {/* <span className="mb-5">
+            <p className="text-center text-[18px] font-medium ">
+                Do you have a question, a proposal, or a project you&apos;d like to collaborate on? <br/>
+                Feel free to drop me a message!
+            </p>
+        </span> */}
+    </div>
     )
   }
   
