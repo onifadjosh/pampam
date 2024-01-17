@@ -130,7 +130,7 @@ const Section = () => {
             <span className="flex justify-end relative">
                 <h3 className="absolute left-[30%]">SELECTED PROJECTS</h3>
 
-                <h3>Aesthetics/<br />
+                <h3>Aesthetics/
                 &ldquo;Greensock&ldquo;
                 </h3>
             </span>
@@ -146,7 +146,7 @@ const Section = () => {
 
         <div className='harmony'>
             <span>
-                <h3>Harmony/ <br />
+                <h3>Harmony/ 
                 &quot;Vanillas&quot;
                 </h3>
             </span>
@@ -158,7 +158,7 @@ const Section = () => {
 
         <div className='aesthetics'>
             <span>
-                <h3>Aesthetics/ <br />
+                <h3>Aesthetics/ 
                 &quot;Vanillas&quot;
                 </h3>
             </span>
@@ -170,7 +170,7 @@ const Section = () => {
 
         <div className='harmony bolt'> 
             <span>
-                <h3>Harmony/ <br />
+                <h3>Harmony/ 
                 &ldquo;Greensock&ldquo;
                 </h3>
             </span>
@@ -182,7 +182,7 @@ const Section = () => {
 
         <div className='harmony tech-time'>
             <span>
-                <h3>Harmony/ <br />
+                <h3>Harmony/ 
                 &quot;Vanillas&quot;
                 </h3>
             </span>
