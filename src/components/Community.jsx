@@ -10,7 +10,7 @@ const Community = () => {
                 I have actively contributed to the development of various 
                 resources and tools, primarily tailored for designers and 
                 developers, aligning with my professional background and expertise.
-                You can check out <a href="https://onifadjosh.github.io/Tribute-to-the-queen/" className="font-bold text-[24px]">QUEEN ELIZABETH</a>
+                You can check out <a href="https://onifadjosh.github.io/Tribute-to-the-queen/" className="font-bold text-[24px] hover:text-[#E6FF00]">QUEEN ELIZABETH</a>
             </p>
         </div>
   
