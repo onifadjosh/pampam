@@ -153,3 +153,17 @@ body{
   width: 100%;
   background-color:#E6FF00 ;
 }
+
+/* footer animation */
+.marquee p{
+  animation: move-rt  20000ms linear infinite ;
+}
+
+@keyframes move-rt {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
