@@ -11,7 +11,9 @@ const Footer = () => {
           <div className="flex relative flex-col justify-center items-center z-10">
             <p className="text-[50px] text-center pb-10">Looking for a Frontend Developer?</p>
     
-            <a href="mailto:onifadjosh@gmail.com" className=".btn text-[18px] px-5 py-3 rounded-[30px] border-white border-[1px] font-bold cursor-pointer">GET IN TOUCH</a>
+            <a href="mailto:onifadjosh@gmail.com" className="button text-[18px] z-[10] px-5 py-3 rounded-[30px] border-white border-[1px] font-bold cursor-pointer ">
+              <p className="button-content">GET IN TOUCH</p>
+            </a>
           
           </div>
     
