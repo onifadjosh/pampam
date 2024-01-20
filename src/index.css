@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +10,7 @@
   padding: 0;
   margin: 0;
 }
+
 
 
 
@@ -23,6 +27,7 @@ body{
   overflow: auto;
 }
 
+/* header pure styling */
 .circle-text{
   position: relative;
   width: 200px;
@@ -52,6 +57,13 @@ body{
   to{
     transform: rotateZ(360deg);
   }
+}
+
+.about:hover h1{
+  color: #545454;
+}
+.about:hover h1 span{
+  color:#000;
 }
 
 
@@ -99,10 +111,6 @@ body{
 }
 
 
-
-
-
-
 .site{
   padding-top: 20px;
   padding-bottom: 32px;
@@ -111,7 +119,19 @@ body{
   font-weight: bold;
   overflow: hidden;
 }
-
+@media screen and (max-width: 1240px) {
+  .aesthetics, .harmony{
+    padding-top: 20px;
+  }
+  
+  .aesthetics h3, .harmony h3{
+    margin-right: 100px;
+  }
+  .site{
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+}
 
 
 
