@@ -5,12 +5,12 @@ const Community = () => {
       <div className="h-[70vh] flex flex-col justify-center items-center ">
 
         <div className="flex flex-col justify-center items-center">
-            <h3 className='community-head font-medium text-[18px] pb-6 font-Noto'>COMMUNITY CONTRIBUTIONS</h3>
-            <p className='community-content lg:w-[75%] xl:w-[50%] text-center font-semibold text-[20px] font-Mont'>
+            <h3 className='community-head font-semibold lg:font-medium md:text-[20px] lg:text-[18px] pb-6 font-Noto'>COMMUNITY CONTRIBUTIONS</h3>
+            <p className='community-content w-[75%] xl:w-[50%] text-center font-medium lg:font-semibold md:text-[20px] lg:text-[20px] font-Mont'>
                 I have actively contributed to the development of various 
                 resources and tools, primarily tailored for designers and 
                 developers, aligning with my professional background and expertise.
-                You can check out <a href="https://onifadjosh.github.io/Tribute-to-the-queen/" className="font-bold text-[24px] hover:text-[#E6FF00] font-Noto">QUEEN ELIZABETH</a>
+                You can check out <a href="https://onifadjosh.github.io/Tribute-to-the-queen/" className="font-bold md:text-[20px] lg:text-[24px] hover:text-[#E6FF00] font-Noto">QUEEN ELIZABETH</a>
             </p>
         </div>
   

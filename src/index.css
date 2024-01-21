@@ -37,6 +37,12 @@ body{
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width:800px) {
+  /* .circle-text{
+    width: 150px;
+    height: 150px;
+  } */
+}
 
 #curve{
   fill: transparent;
@@ -130,6 +136,17 @@ body{
   .site{
     padding-top: 15px;
     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .aesthetics h3, .harmony h3{
+    margin-right: 50px;
+  }
+
+  .site{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 90px;
   }
 }
 
