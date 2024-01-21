@@ -91,7 +91,7 @@ const Header = () => {
     <div className='header flex flex-col h-[100vh] overflow-hidden overflow-y-hidden'>
 
         <div  className='row1 relative -top-full z-[2] flex w-full h-[30%] border-b-2 border-[#000] bg-[#b3b0ba]'>
-            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-bold  basis-[70%] lg:text-[70px] xl:text-[90px] text-[#000]'>
+            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-bold  basis-[70%] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
                 <span className='niche-text  flex '>
                     <h1>F</h1>
                     <h1>R</h1>
@@ -127,9 +127,9 @@ const Header = () => {
 
             <div className="row2-col1  flex flex-col basis-[70%] h-full">
                 <div className="row2-col1-rowi  flex w-full h-[55%] border-b-2 border-[#000] ">
-                    <div className='pic-row flex  relative overflow-hidden w-[70%] border-[#000] border-r-[1px] rounded-br-[40px] bg-[#b3b0ba]'>
-                        <div className="relative basis-[75%] overflow-hidden">
-                            <div className='flex flex-col gap-2 h-full justify-center lg:text-[14px] xl:text-[16px] text-[#000] //font-bold p-4 tracking-wide description font-Mont'>
+                    <div className='pic-row flex  relative overflow-hidden w-[65%] lg:w-[70%] border-[#000] border-r-[1px] rounded-br-[40px] bg-[#b3b0ba]'>
+                        <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
+                            <div className='flex flex-col gap-2 h-full justify-center text-[14px] xl:text-[16px] text-[#000] //font-bold p-4 tracking-wide description font-Mont'>
                                 <p className="">
                                     I am a developer with a primary focus on front-end development based in Lagos,
                                     Nigeria. I am focused and dedicated to developing compelling and interactive user 
@@ -144,18 +144,18 @@ const Header = () => {
                         
                         </div>
 
-                        <div className='h-stripe relative  basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
-                            <span className="absolute lg:-right-[9.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
+                        <div className='h-stripe relative basis-[15%] lg:basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
+                            <span className="absolute md:-right-[9.5em] lg:-right-[9.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
                         </div>
 
-                        <span className='whitespace basis-[15%]'></span>
+                        <span className='whitespace basis-[0%] lg:basis-[15%] '></span>
                     </div>
 
-                    <div className='circle-text-container w-[30%] rounded-bl-[40px] border-l-[1px] border-[#000] flex justify-center items-center bg-[#b3b0ba]'>
+                    <div className='circle-text-container w-[35%] lg:w-[30%] rounded-bl-[40px] border-l-[1px] border-[#000] flex justify-center items-center bg-[#b3b0ba]'>
                         <div className='circle-text'>
                             <svg width='250' height='250' className='text'>
                                 <path id='curve' d='M 25 125 A 70 70 0 1 1 25 127'></path>
-                                <text className='text font-bold font-Mont'>
+                                <text className='text font-bold font-Mont text-[14px] lg:text-[15px]'>
                                     <textPath href='#curve'>
                                         BARBER BY DAY, FRONTEND DEVELOPER ANYTIME !!!!!!!
                                     </textPath>
@@ -166,24 +166,24 @@ const Header = () => {
                 </div>
 
                 <div className='row2-col1-rowii flex w-full h-[45%]'>
-                    <a href="http://" className='about flex items-center w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
-                        <h1 className="text-[40px] text-[#000] text-center font-bold ">LET&apos;S TALK ABOUT
+                    <a href="http://" className='about flex items-center justify-center w-[65%] lg:w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
+                        <h1 className="text-[25px] lg:text-[40px] text-[#000] text-center font-bold ">LET&apos;S TALK ABOUT
                             <span className="text-[#545454]"> ME</span>
                         </h1>
                     </a>
 
-                    <span className='slant-whitespace  relative overflow-hidden w-[30%] border-l-[1px]  rounded-tl-[40px] border-[#000] bg-[#b3b0ba]'>
-                        <span className="diagonal-line absolute top-[50%] right-[-25%] w-[150%] transform lg:-rotate-[44.5deg] xl:-rotate-[35.5deg] h-[2px]  bg-[#000]"></span>
+                    <span className='slant-whitespace  relative overflow-hidden w-[35%] lg:w-[30%] border-l-[1px]  rounded-tl-[40px] border-[#000] bg-[#b3b0ba]'>
+                        <span className="diagonal-line absolute top-[50%] right-[-25%] w-[150%] transform md:-rotate-[47.5deg] lg:-rotate-[44.5deg] xl:-rotate-[35.5deg] h-[2px]  bg-[#000]"></span>
                     </span>
                 </div>
             </div>
 
             <div className="row2-col2 flex basis-[30%]  border-l-2 border-[#000] bg-[#b3b0ba]">
-                <div className="w-[80%] bg-[url('./assets/profile.png')] bg-cover bg-center">
+                <div className="md:w-full lg:w-[80%] bg-[url('./assets/profile.png')] bg-cover bg-center">
                     
                 </div>
 
-                <div className='side-content relative -right-full flex flex-col overflow-hidden w-[20%]  border-l-2  border-[#000]  bg-[#b3b0ba]'>
+                <div className='side-content md:hidden lg:flex relative -right-full  flex-col overflow-hidden w-[20%]  border-l-2  border-[#000]  bg-[#b3b0ba]'>
                     <span className='project-list h-[55%] border-b-2 border-[#000]'>
                     
                     </span>

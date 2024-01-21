@@ -128,7 +128,7 @@ const Section = () => {
     <div className='projects overflow-hidden px-10'>
         <div className='aesthetics relative' id="aesth">
             <span className="flex justify-end relative font-Mont">
-                <h3 className="absolute left-[30%]">SELECTED PROJECTS</h3>
+                <h3 className="absolute md:left-[15%] lg:left-[30%]">SELECTED PROJECTS</h3>
 
                 <h3 className="">Aesthetics/
                 &ldquo;Greensock&ldquo;
