@@ -126,10 +126,10 @@ const Header = () => {
         <div className='row2 relative -top-full z-0 flex-col md:flex-row flex h-[80%] md:h-[70%]'> 
 
             <div className="row2-col1 flex-col-reverse flex md:flex-col  md:basis-[70%] h-full">
-                <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[55%] border-b-2 border-[#000] ">
+                <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[60%] lg:h-[55%] border-b-2 border-[#000] ">
                     <div className='pic-row flex  relative overflow-hidden w-full md:w-[65%] lg:w-[70%] border-[#000] border-r-[1px] md:rounded-br-[40px] bg-[#b3b0ba]'>
                         <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
-                            <div className='flex flex-col gap-2 h-full justify-center text-[14px] xl:text-[16px] text-[#000] //font-bold p-4 tracking-wide description font-Mont'>
+                            <div className='flex flex-col gap-2 h-full justify-center text-[14px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
                                 <p className="">
                                     I am a developer with a primary focus on front-end development based in Lagos,
                                     Nigeria. I am focused and dedicated to developing compelling and interactive user 
@@ -145,7 +145,7 @@ const Header = () => {
                         </div>
 
                         <div className='h-stripe relative basis-[15%] lg:basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
-                            <span className="absolute -right-[8.5em] lg:-right-[9.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
+                            <span className="absolute -right-[8.5em] md:-right-[9.0em] lg:-right-[10.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
                         </div>
 
                         <span className='whitespace basis-[0%] lg:basis-[15%] '></span>
@@ -165,7 +165,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='row2-col1-rowii flex w-full h-[50%] md:h-[45%]'>
+                <div className='row2-col1-rowii flex w-full h-[50%] md:h-[40%] lg:h-[45%]'>
                     <div className=" bg-[url('./assets/profile.png')] bg-cover bg-center w-[60%] md:hidden">
                     
                     </div>
@@ -177,7 +177,7 @@ const Header = () => {
                     </a>
 
                     <span className='slant-whitespace hidden md:block relative overflow-hidden w-[35%] lg:w-[30%] border-l-[1px]  rounded-tl-[40px] border-[#000] bg-[#b3b0ba]'>
-                        <span className="diagonal-line absolute top-[50%] right-[-25%] w-[150%] transform md:-rotate-[47.5deg] lg:-rotate-[44.5deg] xl:-rotate-[35.5deg] h-[2px]  bg-[#000]"></span>
+                        <span className="diagonal-line absolute top-[50%] right-[-25%] w-[150%] transform md:-rotate-[40.5deg] lg:-rotate-[47.5deg] xl:-rotate-[35.5deg] h-[2px]  bg-[#000]"></span>
                     </span>
                 </div>
             </div>

@@ -5,9 +5,25 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const screenWidth = window.screenWidth;
+
 const Section = () => {
 
     useGSAP(()=>{
+        if (screenWidth < 500){
+            gsap.to(".project1", {
+                x: '60%',
+                ease: "slow(0.9,0.1,false)",
+                // start:"+600",
+                duration:10,
+    
+                scrollTrigger:{
+                    trigger: ".projects",
+                    scrub: 0.5,
+                    
+                },
+            });
+        } 
         gsap.to(".project1", {
             x: '40%',
             ease: "slow(0.9,0.1,false)",
@@ -19,7 +35,7 @@ const Section = () => {
                 scrub: 0.5,
                 
             },
-            
+
             
         });
         gsap.from(".border-line1",{
@@ -125,17 +141,19 @@ const Section = () => {
     });
 
   return (
-    <div className='projects overflow-hidden px-10'>
+    <div className='projects overflow-hidden px-2 md:px-10'>
         <div className='aesthetics relative' id="aesth">
             <span className="flex justify-end relative font-Mont">
-                <h3 className="absolute md:left-[15%] lg:left-[30%]">SELECTED PROJECTS</h3>
+                <h3 className="absolute left-[2%] md:left-[15%] lg:left-[30%]">SELECTED PROJECTS</h3>
 
                 <h3 className="">Aesthetics/
                 &ldquo;Greensock&ldquo;
                 </h3>
             </span>
 
-            <h1 data-letters="HUMANKIND-CLONE WITH GSAP" className='site project1 absolute left-0 font-Noto'>HUMANKIND-CLONE WITH GSAP</h1>
+            
+            <h1 data-letters="HUMANKIND-CLONE WITH GSAP" className='site project1 absolute left-[-20%] md:left-0 font-Noto'>HUMANKIND-CLONE WITH GSAP</h1>
+        
         </div>
         
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line1"></span>

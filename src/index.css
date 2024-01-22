@@ -150,6 +150,20 @@ body{
   }
 }
 
+@media screen and (max-width:500px) {
+  .aesthetics h3, .harmony h3{
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .site{
+    padding-top: 10px;
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+}
+
 
 
 /* footer animation */
