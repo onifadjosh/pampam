@@ -90,8 +90,8 @@ const Header = () => {
   return (
     <div className='header flex flex-col h-[100vh] overflow-hidden overflow-y-hidden'>
 
-        <div  className='row1 relative -top-full z-[2] flex w-full h-[30%] border-b-2 border-[#000] bg-[#b3b0ba]'>
-            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-bold  basis-[70%] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
+        <div  className='row1 relative -top-full z-[2] flex w-full h-[20%] md:h-[30%] border-b-2 border-[#000] bg-[#b3b0ba]'>
+            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-bold  basis-[60%] md:basis-[70%] text-[24px] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
                 <span className='niche-text  flex '>
                     <h1>F</h1>
                     <h1>R</h1>
@@ -114,7 +114,7 @@ const Header = () => {
                 </span>
             </div>
 
-            <div className="row1-col2 px-20 flex flex-col justify-center  relative overflow-hidden -left-16 basis-[30%] border-l-2 border-[#000] font-bold font-Mont text-[#000]">
+            <div className="row1-col2 md:px-20 px-5 flex flex-col justify-center  relative overflow-hidden -left-16 basis-[40%] md:basis-[30%] border-l-2 border-[#000] font-bold font-Mont text-[#000]">
                 <h3>DAY</h3>
                 <h3>TIME</h3>
                 <h3>ADDRESS</h3>
@@ -123,11 +123,11 @@ const Header = () => {
         </div>
 
 
-        <div className='row2 relative -top-full z-0 flex h-[70%]'> 
+        <div className='row2 relative -top-full z-0 flex-col md:flex-row flex h-[80%] md:h-[70%]'> 
 
-            <div className="row2-col1  flex flex-col basis-[70%] h-full">
-                <div className="row2-col1-rowi  flex w-full h-[55%] border-b-2 border-[#000] ">
-                    <div className='pic-row flex  relative overflow-hidden w-[65%] lg:w-[70%] border-[#000] border-r-[1px] rounded-br-[40px] bg-[#b3b0ba]'>
+            <div className="row2-col1 flex-col-reverse flex md:flex-col  md:basis-[70%] h-full">
+                <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[55%] border-b-2 border-[#000] ">
+                    <div className='pic-row flex  relative overflow-hidden w-full md:w-[65%] lg:w-[70%] border-[#000] border-r-[1px] md:rounded-br-[40px] bg-[#b3b0ba]'>
                         <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
                             <div className='flex flex-col gap-2 h-full justify-center text-[14px] xl:text-[16px] text-[#000] //font-bold p-4 tracking-wide description font-Mont'>
                                 <p className="">
@@ -145,13 +145,13 @@ const Header = () => {
                         </div>
 
                         <div className='h-stripe relative basis-[15%] lg:basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
-                            <span className="absolute md:-right-[9.5em] lg:-right-[9.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
+                            <span className="absolute -right-[8.5em] lg:-right-[9.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
                         </div>
 
                         <span className='whitespace basis-[0%] lg:basis-[15%] '></span>
                     </div>
 
-                    <div className='circle-text-container w-[35%] lg:w-[30%] rounded-bl-[40px] border-l-[1px] border-[#000] flex justify-center items-center bg-[#b3b0ba]'>
+                    <div className='circle-text-container w-[35%] lg:w-[30%] rounded-bl-[40px] border-l-[1px] border-[#000] hidden md:flex justify-center items-center bg-[#b3b0ba]'>
                         <div className='circle-text'>
                             <svg width='250' height='250' className='text'>
                                 <path id='curve' d='M 25 125 A 70 70 0 1 1 25 127'></path>
@@ -165,20 +165,24 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='row2-col1-rowii flex w-full h-[45%]'>
-                    <a href="http://" className='about flex items-center justify-center w-[65%] lg:w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
+                <div className='row2-col1-rowii flex w-full h-[50%] md:h-[45%]'>
+                    <div className=" bg-[url('./assets/profile.png')] bg-cover bg-center w-[60%] md:hidden">
+                    
+                    </div>
+
+                    <a href="http://" className='about flex items-center justify-center w-[40%] md:w-[65%] lg:w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] md:rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
                         <h1 className="text-[25px] lg:text-[40px] text-[#000] text-center font-bold ">LET&apos;S TALK ABOUT
                             <span className="text-[#545454]"> ME</span>
                         </h1>
                     </a>
 
-                    <span className='slant-whitespace  relative overflow-hidden w-[35%] lg:w-[30%] border-l-[1px]  rounded-tl-[40px] border-[#000] bg-[#b3b0ba]'>
+                    <span className='slant-whitespace hidden md:block relative overflow-hidden w-[35%] lg:w-[30%] border-l-[1px]  rounded-tl-[40px] border-[#000] bg-[#b3b0ba]'>
                         <span className="diagonal-line absolute top-[50%] right-[-25%] w-[150%] transform md:-rotate-[47.5deg] lg:-rotate-[44.5deg] xl:-rotate-[35.5deg] h-[2px]  bg-[#000]"></span>
                     </span>
                 </div>
             </div>
 
-            <div className="row2-col2 flex basis-[30%]  border-l-2 border-[#000] bg-[#b3b0ba]">
+            <div className="row2-col2 hidden md:flex basis-[30%]  border-l-2 border-[#000] bg-[#b3b0ba]">
                 <div className="md:w-full lg:w-[80%] bg-[url('./assets/profile.png')] bg-cover bg-center">
                     
                 </div>
