@@ -11,6 +11,12 @@ export default {
         'Noto':[' "Noto Sans JP" ', "sans-serif"]
       }
     },
+
+    screens: {
+
+      'sm': '280px',
+      // => @media (min-width: 640px) { ... }
+    }
   },
   plugins: [],
 }
