@@ -135,7 +135,7 @@ const Header = () => {
                 <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[60%] lg:h-[55%] border-b-2 border-[#000] ">
                     <div className='pic-row flex  relative overflow-hidden w-full md:w-[65%] lg:w-[70%] border-[#000] border-r-[1px] md:rounded-br-[40px] bg-[#b3b0ba]'>
                         <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
-                            <div className='flex flex-col gap-2 h-full justify-center max-[320px]:text-[12px] text-[13px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
+                            <div className='flex flex-col gap-2 h-full justify-center max-[320px]:text-[12px] text-[14px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
                                 <p className="">
                                     I am a developer with a primary focus on front-end development based in Lagos,
                                     Nigeria. I am focused and dedicated to developing compelling and interactive user 
