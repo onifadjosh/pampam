@@ -88,11 +88,11 @@ const Header = () => {
         
     // }, []);
   return (
-    <div className='header flex flex-col h-[100vh] overflow-hidden overflow-y-hidden'>
+    <div className='header flex flex-col h-[100vh] overflow-hidden overflow-y-hidden pin-element pin-container'>
 
         <div  className='row1 relative -top-full z-[2] flex w-full h-[20%] md:h-[30%] border-b-2 border-[#000] bg-[#b3b0ba]'>
             <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-extrabold md:font-bold  basis-[60%] md:basis-[70%] text-[24px] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
-                <span className='niche-text  flex '>
+                <span className='niche-text  hidden md:flex '>
                     <h1>F</h1>
                     <h1>R</h1>
                     <h1>O</h1>
@@ -103,14 +103,20 @@ const Header = () => {
                     <h1>D</h1>
                 </span>
 
-                <span>
+                <span className="hidden md:flex">
                     <strong><h1 className="linee">——</h1></strong>
                 </span>
 
-                <span className='dev flex'>
+                <span className='dev hidden md:flex'>
                     <h1>D</h1>
                     <h1>E</h1>
                     <h1>V</h1> 
+                </span>
+
+                <span className="max-[425px]:text-[28px]  max-[375px]:text-[25px] flex flex-col items-center md:hidden ">
+                    <p>FRONTEND</p>
+                    <p>——</p>
+                    <p>DEV</p>
                 </span>
             </div>
 
@@ -129,7 +135,7 @@ const Header = () => {
                 <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[60%] lg:h-[55%] border-b-2 border-[#000] ">
                     <div className='pic-row flex  relative overflow-hidden w-full md:w-[65%] lg:w-[70%] border-[#000] border-r-[1px] md:rounded-br-[40px] bg-[#b3b0ba]'>
                         <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
-                            <div className='flex flex-col gap-2 h-full justify-center  text-[13px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
+                            <div className='flex flex-col gap-2 h-full justify-center max-[320px]:text-[12px] text-[13px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
                                 <p className="">
                                     I am a developer with a primary focus on front-end development based in Lagos,
                                     Nigeria. I am focused and dedicated to developing compelling and interactive user 
@@ -171,7 +177,7 @@ const Header = () => {
                     </div>
 
                     <a href="http://" className='about flex items-center justify-center w-[40%] md:w-[65%] lg:w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] md:rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
-                        <h1 className="text-[25px] lg:text-[40px] text-[#000] text-center font-extrabold md:font-bold ">LET&apos;S TALK ABOUT
+                        <h1 className="text-[25px] max-[320px]:text-[20px] lg:text-[40px] text-[#000] text-center font-extrabold md:font-bold ">LET&apos;S TALK ABOUT
                             <span className="text-[#545454]"> ME</span>
                         </h1>
                     </a>

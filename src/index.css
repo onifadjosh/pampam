@@ -97,24 +97,28 @@ body{
   -webkit-text-stroke-width: 0px;
   /* text-stroke-width: 0px; */
 }
-.project1::before, .project2::before,.project3::before,.project4::before,.project5::before{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 9%;
-  bottom: 0;
-  content: attr(data-letters);
-  overflow: hidden;
-  white-space: nowrap;
-  transition: height 1s;
-  color: #def54f;
-  height: 0;
-  z-index: 999;
+
+@media screen and (min-width:900px) {
+  .project1::before, .project2::before,.project3::before,.project4::before,.project5::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9%;
+    bottom: 0;
+    content: attr(data-letters);
+    overflow: hidden;
+    white-space: nowrap;
+    transition: height 1s;
+    color: #def54f;
+    height: 0;
+    z-index: 999;
+  }
+  
+  .project1:hover:before,.project2:hover:before,.project3:hover:before,.project4:hover:before,.project5:hover:before{
+    height: 100%;
+  }
 }
 
-.project1:hover:before,.project2:hover:before,.project3:hover:before,.project4:hover:before,.project5:hover:before{
-  height: 100%;
-}
 
 
 .site{
@@ -161,6 +165,16 @@ body{
     width: fit-content;
     padding-bottom: 10px;
     font-size: 40px;
+  }
+}
+@media screen and (max-width:320px) {
+  .aesthetics h3, .harmony h3{
+    margin-right: 0px;
+    font-size: 10px;
+  }
+
+  .site{
+    font-size: 35px;
   }
 }
 
