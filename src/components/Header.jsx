@@ -91,7 +91,7 @@ const Header = () => {
     <div className='header flex flex-col h-[100vh] overflow-hidden overflow-y-hidden'>
 
         <div  className='row1 relative -top-full z-[2] flex w-full h-[20%] md:h-[30%] border-b-2 border-[#000] bg-[#b3b0ba]'>
-            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-bold  basis-[60%] md:basis-[70%] text-[24px] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
+            <div ref={headerRef} className='row1-col1  relative font-Noto overflow-hidden -left-full flex justify-center items-center font-extrabold md:font-bold  basis-[60%] md:basis-[70%] text-[24px] md:text-[55px] lg:text-[70px] xl:text-[90px] text-[#000]'>
                 <span className='niche-text  flex '>
                     <h1>F</h1>
                     <h1>R</h1>
@@ -129,7 +129,7 @@ const Header = () => {
                 <div className="row2-col1-rowi  flex w-full h-[50%] md:h-[60%] lg:h-[55%] border-b-2 border-[#000] ">
                     <div className='pic-row flex  relative overflow-hidden w-full md:w-[65%] lg:w-[70%] border-[#000] border-r-[1px] md:rounded-br-[40px] bg-[#b3b0ba]'>
                         <div className="relative basis-[85%] lg:basis-[75%] overflow-hidden">
-                            <div className='flex flex-col gap-2 h-full justify-center text-[14px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
+                            <div className='flex flex-col gap-2 h-full justify-center  text-[13px] md:text-[12px] lg:text-[16px]  text-[#000]  p-4 tracking-wide description font-Mont'>
                                 <p className="">
                                     I am a developer with a primary focus on front-end development based in Lagos,
                                     Nigeria. I am focused and dedicated to developing compelling and interactive user 
@@ -145,7 +145,7 @@ const Header = () => {
                         </div>
 
                         <div className='h-stripe relative basis-[15%] lg:basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
-                            <span className="absolute -right-[8.5em] md:-right-[9.0em] lg:-right-[10.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
+                            <span className="absolute -right-[11em] /xsml:-right-[8.5em] /-right-[8.5em] md:-right-[9.0em] lg:-right-[10.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
                         </div>
 
                         <span className='whitespace basis-[0%] lg:basis-[15%] '></span>
@@ -166,12 +166,12 @@ const Header = () => {
                 </div>
 
                 <div className='row2-col1-rowii flex w-full h-[50%] md:h-[40%] lg:h-[45%]'>
-                    <div className=" bg-[url('./assets/profile.png')] bg-cover bg-center w-[60%] md:hidden">
+                    <div className=" bg-[url('./assets/profile.png')] bg-cover bg-[center_top_40%] w-[60%] md:hidden">
                     
                     </div>
 
                     <a href="http://" className='about flex items-center justify-center w-[40%] md:w-[65%] lg:w-[70%] lg:p-4 xl:p-20 border-r-[1px] border-[#000] md:rounded-tr-[40px] bg-[#b3b0ba] font-Noto'>
-                        <h1 className="text-[25px] lg:text-[40px] text-[#000] text-center font-bold ">LET&apos;S TALK ABOUT
+                        <h1 className="text-[25px] lg:text-[40px] text-[#000] text-center font-extrabold md:font-bold ">LET&apos;S TALK ABOUT
                             <span className="text-[#545454]"> ME</span>
                         </h1>
                     </a>
