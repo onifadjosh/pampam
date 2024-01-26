@@ -152,8 +152,9 @@ const Section = () => {
             </span>
 
             
-            <h1 data-letters="HUMANKIND-CLONE WITH GSAP" className='site project1 absolute left-[-20%] md:left-0 font-Noto'>HUMANKIND-CLONE WITH GSAP</h1>
-        
+            <a href="https://onifadjosh.github.io/HUMANKIND/" data-letters="HUMANKIND-CLONE WITH GSAP" className='site project1 absolute left-[-20%] md:left-0 font-Noto'>HUMANKIND-CLONE WITH GSAP</a>
+
+            {/* <a href="http://" className="block md:hidden">Visit Site</a> */}
         </div>
         
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line1"></span>
@@ -165,7 +166,9 @@ const Section = () => {
                 </h3>
             </span>
 
-            <h1 data-letters="CRYPTO WEBPAGE WITH VANILLAS" className='site project2 absolute left-[60%] font-Noto'> CRYPTO WEBPAGE WITH VANILLAS </h1>
+            <a href="https://onifadjosh.github.io/Crypto-webpage/" data-letters="CRYPTO WEBPAGE WITH VANILLAS" className='site project2 absolute left-[60%] font-Noto'> CRYPTO WEBPAGE WITH VANILLAS </a>
+
+            {/* <a href="http://" className="block md:hidden">Visit Site</a> */}
         </div>
 
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line2"></span>
@@ -177,7 +180,9 @@ const Section = () => {
                 </h3>
             </span>
 
-            <h1 data-letters="REBOUND-A WINE BOTTLE STORE CLONE" className='site project3 absolute left-[-50%] font-Noto'>REBOUND-A WINE BOTTLE STORE CLONE</h1>
+            <a href="https://onifadjosh.github.io/REBOUND/" data-letters="REBOUND-A WINE BOTTLE STORE CLONE" className='site project3 absolute left-[-50%] font-Noto'>REBOUND-A WINE BOTTLE STORE CLONE</a>
+
+            {/* <a href="http://" className="block md:hidden">Visit Site</a> */}
         </div>
 
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line3"></span>
@@ -189,7 +194,9 @@ const Section = () => {
                 </h3>
             </span>
 
-            <h1 data-letters="BOLT - SHOPIFY MARKETPLACE" className='site project4 absolute left-[50%] font-Noto'>BOLT - SHOPIFY MARKETPLACE</h1>
+            <a href="https://onifadjosh.github.io/BOLT/" data-letters="BOLT - SHOPIFY MARKETPLACE" className='site project4 absolute left-[50%] font-Noto'>BOLT - SHOPIFY MARKETPLACE</a>
+
+            {/* <a href="http://" className="block md:hidden">Visit Site</a> */}
         </div>
 
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line4"></span>
@@ -201,7 +208,9 @@ const Section = () => {
                 </h3>
             </span>
 
-            <h1 data-letters="TECHTIME - LEARN TECH ONLINE" className='site project5 absolute left-[-50%] font-Noto'>TECHTIME - LEARN TECH ONLINE</h1>
+            <a href="https://onifadjosh.github.io/TECHTIME/" data-letters="TECHTIME - LEARN TECH ONLINE" className='site project5 absolute left-[-50%] font-Noto'>TECHTIME - LEARN TECH ONLINE</a>
+
+            {/* <a href="http://" className="block md:hidden">Visit Site</a> */}
         </div>
 
         <span className="flex justify-center  w-full h-[2px] bg-[#545454] border-line5"></span>
