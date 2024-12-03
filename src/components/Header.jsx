@@ -1,12 +1,12 @@
 // import {useEffect, useRef} from 'react'
 
-import { useRef } from "react";
+import {useRef} from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 
 
-const Header = () => {
+const Header = ({time}) => {
 
     const headerRef= useRef();
 
@@ -121,8 +121,8 @@ const Header = () => {
             </div>
 
             <div className="row1-col2 md:px-20 px-5 flex flex-col justify-center  relative overflow-hidden -left-16 basis-[40%] md:basis-[30%] border-l-2 border-[#000] font-bold font-Mont text-[#000]">
-                <h3>DAY</h3>
-                <h3>TIME</h3>
+                <h3>{time.toLocaleDateString('en-US',{weekday:'long', month: 'long', day: 'numeric'})},</h3>
+                <h3>{time.toLocaleTimeString()}</h3>
                 <h3>LAGOS, NIGERIA</h3>
                 <button type="button"></button>
             </div>

@@ -1,6 +1,6 @@
 // import React from 'react'
 
-const Footer = () => {
+const Footer = ({time}) => {
     return (
       <div className="relative h-[35vh] md:h-[40vh] lg:h-[50vh] overflow-hidden pb-5  ">
         
@@ -22,14 +22,14 @@ const Footer = () => {
           </div>
     
           <div className="flex justify-between font-bold">
-            <h3>
-              LAGOS, NG
-              <span>time</span>
+            <h3 className="flex gap-[8px] text-[10px] md:text-[16px] lg:text-[24px]">
+              <span>LAGOS, NG</span>
+              <span>{time.toLocaleTimeString()}</span>
             </h3>
     
-            <h3>
-              ONIFADE JOSHUA 
-              <span>year</span>
+            <h3 className="flex gap-[8px] text-[10px] md:text-[16px] lg:text-[24px]">
+              <span>ONIFADE JOSHUA </span>
+              <span>{time.getFullYear()}</span>
             </h3>
           </div>
         </div>
