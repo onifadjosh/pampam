@@ -5,12 +5,17 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const screenWidth = window.screenWidth;
+// const screenWidth = window.screenWidth;
+ScrollTrigger.defaults({
+    preventOverlaps: true,
+    fastScrollEnd: true,
+});
 
 const Section = () => {
+    const isMobile = window.matchMedia("(max-width: 500px)").matches;
 
     useGSAP(()=>{
-        if (screenWidth < 500){
+        if (isMobile){
             gsap.to(".project1", {
                 x: '60%',
                 ease: "slow(0.9,0.1,false)",
