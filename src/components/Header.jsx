@@ -120,10 +120,10 @@ const Header = ({time}) => {
                 </span>
             </div>
 
-            <div className="row1-col2 md:px-20 px-5 flex flex-col justify-center  relative overflow-hidden -left-16 basis-[40%] md:basis-[30%] border-l-2 border-[#000] font-bold font-Mont text-[#000]">
-                <h3>{time.toLocaleDateString('en-US',{weekday:'long', month: 'long', day: 'numeric'})},</h3>
-                <h3>{time.toLocaleTimeString()}</h3>
-                <h3>LAGOS, NIGERIA</h3>
+            <div className="row1-col2 px-[8px] md:px-[16px] lg:px-5 flex flex-col justify-center  relative overflow-hidden -left-16 basis-[40%] md:basis-[30%] border-l-2 border-[#000] font-bold font-Mont text-[#000]">
+                <h3 className="text-[12px] md:text-[16px]">{time.toLocaleDateString('en-US',{weekday:'long', month: 'long', day: 'numeric'})},</h3>
+                <h3 className="text-[12px] md:text-[16px]">{time.toLocaleTimeString()}</h3>
+                <h3 className="text-[12px] md:text-[16px]">LAGOS, NIGERIA</h3>
                 <button type="button"></button>
             </div>
             
