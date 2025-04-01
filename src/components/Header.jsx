@@ -9,6 +9,8 @@ import { useGSAP } from "@gsap/react";
 const Header = ({time}) => {
 
     const headerRef= useRef();
+    // let date = new Date()
+    // date.getFullYear
 
     useGSAP(() => {
     
@@ -152,7 +154,7 @@ const Header = ({time}) => {
                         </div>
 
                         <div className='h-stripe relative basis-[15%] lg:basis-[10%] bg-[#000]  h-full  p-4 overflow-hidden '>
-                            <span className="absolute -right-[11em] /xsml:-right-[8.5em] /-right-[8.5em] md:-right-[9.0em] lg:-right-[10.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE 2024</span>
+                            <span className="absolute -right-[11em] /xsml:-right-[8.5em] /-right-[8.5em] md:-right-[9.0em] lg:-right-[10.8em] xl:-right-[9em] h-full -rotate-90 font-bold text-[#fff] font-Noto">FREELANCE {time.getFullYear()}</span>
                         </div>
 
                         <span className='whitespace basis-[0%] lg:basis-[15%] '></span>
